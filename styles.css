@@ -1,0 +1,22 @@
+/* Universal Selector */
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Type Selector */
+p {
+    font-size: 14px;
+    color: rgb(0, 255, 255);
+}
+
+/* ID Selector */
+#highlighted {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Group Selector */
+.section-title, .card-header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
